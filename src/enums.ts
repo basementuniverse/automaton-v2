@@ -2,7 +2,7 @@ export enum ContentItemType {
   Image = 'image',
   Sound = 'sound',
   Font = 'font',
-  EntityData = 'entityData',
+  ActorData = 'actorData',
 }
 
 export enum Key {

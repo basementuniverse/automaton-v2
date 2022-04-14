@@ -1,9 +1,9 @@
 {
   "items": [
     {
-      "name": "testEntity",
-      "type": "entityData",
-      "args": ["content/json/testEntity.json"]
+      "name": "testActor",
+      "type": "actorData",
+      "args": ["content/json/testActor.json"]
     }
   ]
 }

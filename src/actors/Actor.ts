@@ -1,11 +1,11 @@
 import * as uuid from 'uuid-random';
 
-export type EntityData = {
+export type ActorData = {
   id: string;
   name: string;
 };
 
-export const EntityDataSchema = {
+export const ActorDataSchema = {
   type: 'object',
   properties: {
     id: {
@@ -18,7 +18,7 @@ export const EntityDataSchema = {
   additionalProperties: false,
 };
 
-export default class Entity {
+export default abstract class Actor {
   public id: string;
   public name: string;
 
@@ -30,7 +30,7 @@ export default class Entity {
     this.name = name;
   }
 
-  public serialize(): EntityData {
+  public serialize(): ActorData {
     return {
       id: this.id,
       name: this.name,
