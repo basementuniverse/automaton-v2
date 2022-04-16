@@ -1,4 +1,4 @@
-import * as uuid from 'uuid-random';
+import { v4 as uuid } from 'uuid';
 
 export type ActorData = {
   id: string;
