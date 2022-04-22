@@ -16,9 +16,9 @@
     "url": "git+https://github.com/basementuniverse/automaton-v2.git"
   },
   "bugs": {
-    "url": "https://github.com/basementuniverse/automaton/issues"
+    "url": "https://github.com/basementuniverse/automaton-v2/issues"
   },
-  "homepage": "https://github.com/basementuniverse/automaton#readme",
+  "homepage": "https://github.com/basementuniverse/automaton-v2#readme",
   "dependencies": {
     "@basementuniverse/commonjs": "^1.2.8",
     "ajv": "^8.6.0",
